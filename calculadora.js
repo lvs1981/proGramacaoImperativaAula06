@@ -35,13 +35,13 @@ function mediaDeTresNumeros(j,k,l){
 
 //Função para calcular porcentagem
 function calculaPorcentagem(m,n){
-    let total = divisao(m,100)
+    const total = divisao(m,100)
     return multiplicacao(total,n)
 }
 
 //Função para gerar porcentagem
 function geradorDePorcentagem(o,p){
-    let total = divisao(p,100)
+    const total = divisao(p,100)
     return divisao(o,total)
 }
 
