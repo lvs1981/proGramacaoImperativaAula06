@@ -44,9 +44,9 @@ function calculaPorcentagem(m,n){
 
 //Função para gerar porcentagem
 function geradorDePorcentagem(o,p){
-    let total1 = divisao(p,100)
-    divisao(o,total1)
-    return divisao(o,total1)
+    let total = divisao(p,100)
+    divisao(o,total)
+    return divisao(o,total)
 }
 
 console.log("----------Teste de Operações / Calculadora----------");
