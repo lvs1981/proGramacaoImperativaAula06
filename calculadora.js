@@ -22,7 +22,6 @@ function divisao(g,h){
 
 //Função para gerar o quadrado de um número
 function quadradoDoNumero(i){
-    multiplicacao(i,i)
     return multiplicacao(i,i)
 }
 
@@ -31,21 +30,18 @@ function mediaDeTresNumeros(j,k,l){
     let soma = adicionar(j,k)
     adicionar(soma,l)
     soma = adicionar(soma,l)
-    divisao(soma,3)
     return divisao(soma,3)
 }
 
 //Função para calcular porcentagem
 function calculaPorcentagem(m,n){
     let total = divisao(m,100)
-    multiplicacao(total,n)
     return multiplicacao(total,n)
 }
 
 //Função para gerar porcentagem
 function geradorDePorcentagem(o,p){
     let total = divisao(p,100)
-    divisao(o,total)
     return divisao(o,total)
 }
 
